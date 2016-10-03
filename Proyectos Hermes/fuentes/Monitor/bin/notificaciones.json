@@ -1,0 +1,20 @@
+{
+  "notificaciones": [
+    {
+      "contenido": "Alegre",
+      "contexto": "Pista",
+      "categoria": "Emociones",
+      "ninio": "Pedro",
+      "etiqueta": "Importante"
+    },
+    {
+      "contenido": "Molesto",
+      "contexto": "Hogar",
+      "categoria": "Alimentos",
+      "ninio": "Paula",
+      "etiqueta": "Ansioso"
+      
+    }
+  ]
+}
+

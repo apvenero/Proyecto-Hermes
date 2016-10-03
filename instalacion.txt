@@ -1,0 +1,9 @@
+Monitor
+
+Para ejecutar el Monitor Hermes, colocar el archivo MonitorHERMESBrocchiVenero.jar en la carpeta deseada y hacer doble click.
+
+Comunicador
+
+Para instalar el Comunicador, descargar el archivo ComunicadorBrocchiVenero.apk en el dispositivo e instalar normalmente.
+Para la utilizacion del Comunicador, configurar en "Ajustes" el IP que se va a utilizar y el Puerto con valor "8003".
+

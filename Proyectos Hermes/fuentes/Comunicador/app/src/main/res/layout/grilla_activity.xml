@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:background="#d9dada"
+    tools:context=".GrillaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alumn@s"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/list_alumnos"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_alumnos"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_above="@+id/button_agregar"
+        android:layout_alignStart="@+id/button_agregar"
+        android:paddingLeft="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Nuevo Alumn@"
+        android:textSize="15dp"
+        android:id="@+id/button_agregar"
+        android:layout_marginEnd="171dp"
+        android:background="#d7d9da"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/cedica"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/list_alumnos" />
+
+</RelativeLayout>

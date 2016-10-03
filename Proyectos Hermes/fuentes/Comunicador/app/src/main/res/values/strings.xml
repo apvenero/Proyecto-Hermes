@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hermes - Comunicador</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_alumno">Nombre Alumno</string>
+    <string name="title_activity_nuevo_alumno">NuevoAlumno</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="title_activity_modo_edicion">ModoEdicion</string>
+    <string name="NO">NO</string>
+    <string name="SI">SI</string>
+
+
+    <string-array name="sexo_values">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="tamanio_values">
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+</resources>
